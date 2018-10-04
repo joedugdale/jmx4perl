@@ -1,7 +1,7 @@
 # ==================================================
 # Dockerfile for jmx4perl Tools
 # ==================================================
-FROM alpine:3.2
+FROM alpine:latest
 
 # The less command from alpine does not interpret color escapes (no -R switch)
 ENV JMX4PERL_VERSION=1.12 PAGER=cat
